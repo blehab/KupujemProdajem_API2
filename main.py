@@ -3,7 +3,7 @@ from requests import get
 from hashlib import sha1
 
 """
-`API_PATH` i `SIGNATURE` su preuzeti iz zahteva (Chrome Dev Console -> Network -> Fetch/XHR) koji je poslat na API.
+`API_PATH` i `SIGNATURE` su preuzeti iz zahteva (Chrome Dev Tools -> Network -> Fetch/XHR) koji je poslat na API.
 """
 
 API_PATH = "/api/web/v1/users/ed/139263135"
